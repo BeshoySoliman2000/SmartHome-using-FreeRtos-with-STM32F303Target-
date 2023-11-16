@@ -1,0 +1,370 @@
+Dependencies for Project 'RTOS', Target 'STM32F303': (DO NOT MODIFY !)
+CompilerVersion: 6160000::V6.16::ARMCLANG
+F (.\main.c)(0x6555ECCC)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/main.o -MD)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+I (inc\LIB\Std_types.h)(0x65479866)
+I (inc\LIB\Bit_utils.h)(0x654799D1)
+I (inc\RCC\RCC.h)(0x6551DAEB)
+I (inc\GPIO\GPIO.h)(0x65520D65)
+I (inc\LCD\LCD.h)(0x6551FD9A)
+I (inc\02 - KEYPAD\KEYPAD_int.h)(0x65520FE3)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60354E20)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6386FA70)
+I (RTE\_STM32F303\RTE_Components.h)(0x654F6E05)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x6386FA70)
+F (.\RCC.c)(0x6551DBE5)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/rcc.o -MD)
+I (inc\LIB\Std_types.h)(0x65479866)
+I (inc\LIB\Bit_utils.h)(0x654799D1)
+I (inc\RCC\RCC.h)(0x6551DAEB)
+I (inc\RCC\RCC_prv.h)(0x65512FB0)
+I (inc\RCC\RCC_cfg.h)(0x65512E2D)
+F (.\inc\RCC\RCC.h)(0x6551DAEB)()
+F (.\inc\RCC\RCC_cfg.h)(0x65512E2D)()
+F (.\inc\RCC\RCC_prv.h)(0x65512FB0)()
+F (.\inc\LIB\Bit_utils.h)(0x654799D1)()
+F (.\inc\LIB\Std_types.h)(0x65479866)()
+F (.\inc\GPIO\GPIO.h)(0x65520D65)()
+F (.\inc\GPIO\GPIO_cfg.h)(0x655147F6)()
+F (.\inc\GPIO\GPIO_prv.h)(0x6551DEDF)()
+F (.\GPIO.c)(0x65520D65)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/gpio.o -MD)
+I (inc\LIB\Std_types.h)(0x65479866)
+I (inc\LIB\Bit_utils.h)(0x654799D1)
+I (inc\GPIO\GPIO.h)(0x65520D65)
+I (inc\GPIO\GPIO_prv.h)(0x6551DEDF)
+I (inc\GPIO\GPIO_cfg.h)(0x655147F6)
+F (.\LCD.c)(0x6551F1B8)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/lcd.o -MD)
+I (inc\LIB\Std_types.h)(0x65479866)
+I (inc\LIB\Bit_utils.h)(0x654799D1)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6386FA70)
+I (RTE\_STM32F303\RTE_Components.h)(0x654F6E05)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x6386FA70)
+I (inc\GPIO\GPIO.h)(0x65520D65)
+I (inc\LCD\LCD.h)(0x6551FD9A)
+F (.\inc\LCD\LCD.h)(0x6551FD9A)()
+F (.\inc\02 - KEYPAD\KEYPAD_cfg.h)(0x655222AB)()
+F (.\inc\02 - KEYPAD\KEYPAD_int.h)(0x65520FE3)()
+F (.\inc\02 - KEYPAD\KEYPAD_prv.h)(0x65520F94)()
+F (.\KEYPAD_prg.c)(0x65521C9D)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/keypad_prg.o -MD)
+I (inc\LIB\Std_types.h)(0x65479866)
+I (inc\LIB\Bit_utils.h)(0x654799D1)
+I (inc\GPIO\GPIO.h)(0x65520D65)
+I (inc\02 - KEYPAD\KEYPAD_int.h)(0x65520FE3)
+I (inc\02 - KEYPAD\KEYPAD_cfg.h)(0x655222AB)
+I (inc\02 - KEYPAD\KEYPAD_prv.h)(0x65520F94)
+F (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Source\ARM\clib_arm.c)(0x6386FA70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/clib_arm.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x6386FA70)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6386FA70)
+I (RTE\_STM32F303\RTE_Components.h)(0x654F6E05)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\semphr.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\queue.h)(0x6386FA70)
+F (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Source\cmsis_os2.c)(0x6386FA70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/cmsis_os2.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS2\Include\cmsis_os2.h)(0x626F831E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS2\Include\os_tick.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x6386FA70)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6386FA70)
+I (RTE\_STM32F303\RTE_Components.h)(0x654F6E05)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\event_groups.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\timers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\semphr.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\queue.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_mpool.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_os2.h)(0x6386FA70)
+F (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Source\os_systick.c)(0x6386FA70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/os_systick.o -MD)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS2\Include\os_tick.h)(0x626F831E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (RTE\_STM32F303\RTE_Components.h)(0x654F6E05)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+F (RTE\Device\STM32F303RETx\startup_stm32f303xe.s)(0x60FBC418)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 536" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"STM32F303xE SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_stm32f303xe.o)
+F (RTE\Device\STM32F303RETx\system_stm32f3xx.c)(0x60FBC418)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/system_stm32f3xx.o -MD)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+F (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c)(0x6386FA70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/freertos_evr.o -MD)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6386FA70)
+I (RTE\_STM32F303\RTE_Components.h)(0x654F6E05)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\semphr.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\queue.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\event_groups.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\timers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\stream_buffer.h)(0x6386FA70)
+F (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\event_groups.c)(0x6386FA70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/event_groups.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6386FA70)
+I (RTE\_STM32F303\RTE_Components.h)(0x654F6E05)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\timers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\event_groups.h)(0x6386FA70)
+F (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\list.c)(0x6386FA70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/list.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6386FA70)
+I (RTE\_STM32F303\RTE_Components.h)(0x654F6E05)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x6386FA70)
+F (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F\port.c)(0x6386FA70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/port.o -MD)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6386FA70)
+I (RTE\_STM32F303\RTE_Components.h)(0x654F6E05)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x6386FA70)
+F (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\MemMang\heap_4.c)(0x6386FA70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/heap_4.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6386FA70)
+I (RTE\_STM32F303\RTE_Components.h)(0x654F6E05)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x6386FA70)
+F (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\queue.c)(0x6386FA70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/queue.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6386FA70)
+I (RTE\_STM32F303\RTE_Components.h)(0x654F6E05)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\queue.h)(0x6386FA70)
+F (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\tasks.c)(0x6386FA70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/tasks.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6386FA70)
+I (RTE\_STM32F303\RTE_Components.h)(0x654F6E05)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\timers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\stack_macros.h)(0x6386FA70)
+F (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\timers.c)(0x6386FA70)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -I ./inc/LIB -I ./inc/RCC -I "../New RTOS proj" -I ./inc/GPIO -I ./inc/LCD -I "./inc/02 - KEYPAD"-I./RTE/RTOS-I./RTE/_STM32F303-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/GCC/ARM_CM4F-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/RTOS2/Include-IC:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include-D__UVISION_VERSION="536" -D_RTE_ -DSTM32F303xE -D_RTE_-o ./objects/timers.o -MD)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdlib.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\FreeRTOS.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stddef.h)(0x60354E20)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x60354E20)
+I (RTE\RTOS\FreeRTOSConfig.h)(0x6386FA70)
+I (RTE\_STM32F303\RTE_Components.h)(0x654F6E05)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f303xe.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h)(0x626F831E)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include\system_stm32f3xx.h)(0x60FBC418)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include\freertos_evr.h)(0x6386FA70)
+I (C:\Keil_v5\ARM\ARMCLANG\include\string.h)(0x60354E20)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\projdefs.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\portable.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\deprecated_definitions.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F\portmacro.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\mpu_wrappers.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\task.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\list.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\queue.h)(0x6386FA70)
+I (C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include\timers.h)(0x6386FA70)
+F (RTE\RTOS\FreeRTOSConfig.h)(0x6386FA70)()

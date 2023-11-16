@@ -1,0 +1,883 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.36.0.0
+Copyright (C) 2021 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: beshoy soliman, benha university, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.36.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.16
+Assembler:       Armasm.exe V6.16
+Linker/Locator:  ArmLink.exe V6.16
+Library Manager: ArmAr.exe V6.16
+Hex Converter:   FromElf.exe V6.16
+CPU DLL:         SARMCM3.DLL V5.36.0.0
+Dialog DLL:      DCM.DLL V1.17.3.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.0.9.0
+Dialog DLL:      TCM.DLL V1.53.0.0
+ 
+<h2>Project:</h2>
+D:\NTI\07 - RTOS\01 - Free RTOS\New RTOS proj\RTOS.uvprojx
+Project File Date:  11/13/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.16', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'STM32F303'
+RCC.c(2): warning: In file included from...
+./inc/LIB\Bit_utils.h(40): warning: no newline at end of file [-Wnewline-eof]
+#endif      
+            ^
+RCC.c(5): warning: In file included from...
+./inc/RCC\RCC_prv.h(23): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+RCC.c(6): warning: In file included from...
+./inc/RCC\RCC_cfg.h(5): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+3 warnings generated.
+compiling RCC.c...
+GPIO.c(2): warning: In file included from...
+./inc/LIB\Bit_utils.h(40): warning: no newline at end of file [-Wnewline-eof]
+#endif      
+            ^
+GPIO.c(5): warning: In file included from...
+./inc/GPIO\GPIO_prv.h(23): warning: initializing 'GPIO_t *' with an expression of type 'volatile GPIO_t *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        ((volatile GPIO_t*)0x48000000),
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./inc/GPIO\GPIO_prv.h(24): warning: initializing 'GPIO_t *' with an expression of type 'volatile GPIO_t *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        ((volatile GPIO_t*)0x48000400),
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./inc/GPIO\GPIO_prv.h(25): warning: initializing 'GPIO_t *' with an expression of type 'volatile GPIO_t *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        ((volatile GPIO_t*)0x48000800),
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./inc/GPIO\GPIO_prv.h(26): warning: initializing 'GPIO_t *' with an expression of type 'volatile GPIO_t *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        ((volatile GPIO_t*)0x48000C00),
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./inc/GPIO\GPIO_prv.h(27): warning: initializing 'GPIO_t *' with an expression of type 'volatile GPIO_t *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        ((volatile GPIO_t*)0x48001000),
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./inc/GPIO\GPIO_prv.h(28): warning: initializing 'GPIO_t *' with an expression of type 'volatile GPIO_t *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        ((volatile GPIO_t*)0x48001400),
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./inc/GPIO\GPIO_prv.h(29): warning: initializing 'GPIO_t *' with an expression of type 'volatile GPIO_t *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        ((volatile GPIO_t*)0x48001800),
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./inc/GPIO\GPIO_prv.h(30): warning: initializing 'GPIO_t *' with an expression of type 'volatile GPIO_t *' discards qualifiers [-Wincompatible-pointer-types-discards-qualifiers]
+        ((volatile GPIO_t*)0x48001C00)
+        ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./inc/GPIO\GPIO_prv.h(21): warning: no previous extern declaration for non-static variable 'GPIOx' [-Wmissing-variable-declarations]
+GPIO_t* GPIOx[8] = 
+        ^
+./inc/GPIO\GPIO_prv.h(21): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+GPIO_t* GPIOx[8] = 
+^
+./inc/GPIO\GPIO_prv.h(33): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+GPIO.c(6): warning: In file included from...
+./inc/GPIO\GPIO_cfg.h(5): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+GPIO.c(10): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIOx[PORT]->MODER = ((GPIOx[PORT]->MODER & ~(0b11<<(PIN*2)))|(DIR<<(PIN*2)));
+                                                      ^
+GPIO.c(10): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        GPIOx[PORT]->MODER = ((GPIOx[PORT]->MODER & ~(0b11<<(PIN*2)))|(DIR<<(PIN*2)));
+                                                                     ~ ~~~^~~~~~~~~
+GPIO.c(10): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        GPIOx[PORT]->MODER = ((GPIOx[PORT]->MODER & ~(0b11<<(PIN*2)))|(DIR<<(PIN*2)));
+                                                  ~ ^~~~~~~~~~~~~~~~
+GPIO.c(15): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIOx[PORT]->PUPDR = ((GPIOx[PORT]->PUPDR & ~(0b11<<(PIN*2)))|(MODE<<(PIN*2)));
+                                                      ^
+GPIO.c(15): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        GPIOx[PORT]->PUPDR = ((GPIOx[PORT]->PUPDR & ~(0b11<<(PIN*2)))|(MODE<<(PIN*2)));
+                                                                     ~ ~~~~^~~~~~~~~
+GPIO.c(15): warning: implicit conversion changes signedness: 'int' to 'unsigned long' [-Wsign-conversion]
+        GPIOx[PORT]->PUPDR = ((GPIOx[PORT]->PUPDR & ~(0b11<<(PIN*2)))|(MODE<<(PIN*2)));
+                                                  ~ ^~~~~~~~~~~~~~~~
+18 warnings generated.
+compiling GPIO.c...
+main.c(3): warning: In file included from...
+./inc/LIB\Bit_utils.h(40): warning: no newline at end of file [-Wnewline-eof]
+#endif      
+            ^
+main.c(4): warning: In file included from...
+./inc/RCC\RCC.h(25): warning: 'TIM2' macro redefined [-Wmacro-redefined]
+#define TIM2            0
+        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include\stm32f303xe.h(908): note: previous definition is here
+#define TIM2                ((TIM_TypeDef *) TIM2_BASE)
+        ^
+main.c(4): warning: In file included from...
+./inc/RCC\RCC.h(26): warning: 'TIM3' macro redefined [-Wmacro-redefined]
+#define TIM3            1
+        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include\stm32f303xe.h(909): note: previous definition is here
+#define TIM3                ((TIM_TypeDef *) TIM3_BASE)
+        ^
+main.c(4): warning: In file included from...
+./inc/RCC\RCC.h(27): warning: 'TIM4' macro redefined [-Wmacro-redefined]
+#define TIM4            3
+        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include\stm32f303xe.h(910): note: previous definition is here
+#define TIM4                ((TIM_TypeDef *) TIM4_BASE)
+        ^
+main.c(4): warning: In file included from...
+./inc/RCC\RCC.h(29): warning: 'USART2' macro redefined [-Wmacro-redefined]
+#define USART2          17
+        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include\stm32f303xe.h(920): note: previous definition is here
+#define USART2              ((USART_TypeDef *) USART2_BASE)
+        ^
+main.c(4): warning: In file included from...
+./inc/RCC\RCC.h(30): warning: 'USART3' macro redefined [-Wmacro-redefined]
+#define USART3          18
+        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include\stm32f303xe.h(921): note: previous definition is here
+#define USART3              ((USART_TypeDef *) USART3_BASE)
+        ^
+main.c(4): warning: In file included from...
+./inc/RCC\RCC.h(36): warning: 'TIM1' macro redefined [-Wmacro-redefined]
+#define TIM1            11
+        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include\stm32f303xe.h(950): note: previous definition is here
+#define TIM1                ((TIM_TypeDef *) TIM1_BASE)
+        ^
+main.c(4): warning: In file included from...
+./inc/RCC\RCC.h(37): warning: 'SPI1' macro redefined [-Wmacro-redefined]
+#define SPI1            12      
+        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include\stm32f303xe.h(951): note: previous definition is here
+#define SPI1                ((SPI_TypeDef *) SPI1_BASE)
+        ^
+main.c(4): warning: In file included from...
+./inc/RCC\RCC.h(38): warning: 'TIM8' macro redefined [-Wmacro-redefined]
+#define TIM8            13
+        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include\stm32f303xe.h(952): note: previous definition is here
+#define TIM8                ((TIM_TypeDef *) TIM8_BASE)
+        ^
+main.c(4): warning: In file included from...
+./inc/RCC\RCC.h(39): warning: 'USART1' macro redefined [-Wmacro-redefined]
+#define USART1          14
+        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include\stm32f303xe.h(953): note: previous definition is here
+#define USART1              ((USART_TypeDef *) USART1_BASE)
+        ^
+main.c(4): warning: In file included from...
+./inc/RCC\RCC.h(40): warning: 'SPI4' macro redefined [-Wmacro-redefined]
+#define SPI4            15
+        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include\stm32f303xe.h(954): note: previous definition is here
+#define SPI4                ((SPI_TypeDef *) SPI4_BASE)
+        ^
+main.c(8): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(59): warning: In file included from...
+./RTE/RTOS\FreeRTOSConfig.h(46): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include\stm32f3xx.h(191): warning: 'SET_BIT' macro redefined [-Wmacro-redefined]
+#define SET_BIT(REG, BIT)     ((REG) |= (BIT))
+        ^
+./inc/LIB\Bit_utils.h(4): note: previous definition is here
+#define SET_BIT(Reg,Bit)                Reg|=(1<<Bit)
+        ^
+main.c(21): warning: no previous extern declaration for non-static variable 'LCDTask1Hand' [-Wmissing-variable-declarations]
+xTaskHandle LCDTask1Hand = NULL;
+            ^
+main.c(21): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+xTaskHandle LCDTask1Hand = NULL;
+^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1067): note: expanded from macro 'xTaskHandle'
+    #define xTaskHandle                   TaskHandle_t
+                                          ^
+main.c(22): warning: no previous extern declaration for non-static variable 'HomeTask2Hand' [-Wmissing-variable-declarations]
+xTaskHandle HomeTask2Hand = NULL;
+            ^
+main.c(22): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+xTaskHandle HomeTask2Hand = NULL;
+^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1067): note: expanded from macro 'xTaskHandle'
+    #define xTaskHandle                   TaskHandle_t
+                                          ^
+main.c(24): warning: no previous extern declaration for non-static variable 'StoredPassArray' [-Wmissing-variable-declarations]
+u8 StoredPassArray[4] = {1,3,5,7};
+   ^
+main.c(24): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+u8 StoredPassArray[4] = {1,3,5,7};
+^
+main.c(27): warning: no previous extern declaration for non-static variable 'globalIndex' [-Wmissing-variable-declarations]
+u8 globalIndex =0;
+   ^
+main.c(27): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+u8 globalIndex =0;
+^
+main.c(28): warning: no previous extern declaration for non-static variable 'PasswordFlag' [-Wmissing-variable-declarations]
+u8 PasswordFlag=0;
+   ^
+main.c(28): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+u8 PasswordFlag=0;
+^
+main.c(35): warning: passing 'const signed char *' to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        xTaskCreate(LCDTask_code,(const signed char *)"Task1",85,NULL,LCD_priority,&LCDTask1Hand);
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\task.h(356): note: passing argument to parameter 'pcName' here
+                            const char * const pcName, /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+                                               ^
+main.c(36): warning: passing 'const signed char *' to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+        xTaskCreate(HomeIntro_code,(const signed char *)"Task2",85,NULL,ButtonOn_PRIORITY,&HomeTask2Hand);
+                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\task.h(356): note: passing argument to parameter 'pcName' here
+                            const char * const pcName, /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+                                               ^
+main.c(46): warning: 'return' will never be executed [-Wunreachable-code-return]
+        return 0;
+               ^
+main.c(57): warning: passing 'char [30]' to parameter of type 'pu8' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                        LCD_voidWriteString("You've Succedded the Password");
+                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./inc/LCD\LCD.h(64): note: passing argument to parameter 'Ptr_u8String' here
+void LCD_voidWriteString(pu8 Ptr_u8String);
+                             ^
+main.c(62): warning: passing 'char [51]' to parameter of type 'pu8' (aka 'unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+                        LCD_voidWriteString("You're a theif you've entered the password 3 Times");
+                                            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+./inc/LCD\LCD.h(64): note: passing argument to parameter 'Ptr_u8String' here
+void LCD_voidWriteString(pu8 Ptr_u8String);
+                             ^
+main.c(49): warning: unused parameter 'pvParamter' [-Wunused-parameter]
+void LCDTask_code(void*pvParamter)
+                       ^
+main.c(50): warning: function 'LCDTask_code' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+main.c(71): warning: unused parameter 'pvParamter' [-Wunused-parameter]
+void HomeIntro_code (void * pvParamter)
+                            ^
+main.c(72): warning: function 'HomeIntro_code' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+main.c(25): warning: no previous extern declaration for non-static variable 'PassToCheckArray' [-Wmissing-variable-declarations]
+u8 PassToCheckArray[4];
+   ^
+main.c(25): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+u8 PassToCheckArray[4];
+^
+27 warnings generated.
+compiling main.c...
+LCD.c(2): warning: In file included from...
+./inc/LIB\Bit_utils.h(40): warning: no newline at end of file [-Wnewline-eof]
+#endif      
+            ^
+LCD.c(4): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(59): warning: In file included from...
+./RTE/RTOS\FreeRTOSConfig.h(46): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/Keil/STM32F3xx_DFP/2.2.2/Drivers/CMSIS/Device/ST/STM32F3xx/Include\stm32f3xx.h(191): warning: 'SET_BIT' macro redefined [-Wmacro-redefined]
+#define SET_BIT(REG, BIT)     ((REG) |= (BIT))
+        ^
+./inc/LIB\Bit_utils.h(4): note: previous definition is here
+#define SET_BIT(Reg,Bit)                Reg|=(1<<Bit)
+        ^
+LCD.c(12): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(LCD_PORT, RS, OUTPUTdir);
+                                         ^
+./inc/GPIO\GPIO.h(7): note: expanded from macro 'OUTPUTdir'
+#define OUTPUTdir       0b01
+                        ^
+LCD.c(13): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(LCD_PORT, EN, OUTPUTdir);
+                                         ^
+./inc/GPIO\GPIO.h(7): note: expanded from macro 'OUTPUTdir'
+#define OUTPUTdir       0b01
+                        ^
+LCD.c(14): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(LCD_PORT, D4, OUTPUTdir);
+                                         ^
+./inc/GPIO\GPIO.h(7): note: expanded from macro 'OUTPUTdir'
+#define OUTPUTdir       0b01
+                        ^
+LCD.c(15): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(LCD_PORT, D5, OUTPUTdir);
+                                         ^
+./inc/GPIO\GPIO.h(7): note: expanded from macro 'OUTPUTdir'
+#define OUTPUTdir       0b01
+                        ^
+LCD.c(16): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(LCD_PORT, D6, OUTPUTdir);
+                                         ^
+./inc/GPIO\GPIO.h(7): note: expanded from macro 'OUTPUTdir'
+#define OUTPUTdir       0b01
+                        ^
+LCD.c(17): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(LCD_PORT, D7, OUTPUTdir);
+                                         ^
+./inc/GPIO\GPIO.h(7): note: expanded from macro 'OUTPUTdir'
+#define OUTPUTdir       0b01
+                        ^
+LCD.c(33): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        LCD_voidSendCommand(FunctionSet1_Command);
+                            ^
+./inc/LCD\LCD.h(18): note: expanded from macro 'FunctionSet1_Command'
+#define FunctionSet1_Command            0b00100010
+                                        ^
+LCD.c(41): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinVal(LCD_PORT, D7, GET_BIT(FunctionSet2_Command,7));
+                                                 ^
+./inc/LCD\LCD.h(19): note: expanded from macro 'FunctionSet2_Command'
+#define FunctionSet2_Command            0b10000000
+                                        ^
+LCD.c(42): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinVal(LCD_PORT, D6, GET_BIT(FunctionSet2_Command,6));
+                                                 ^
+./inc/LCD\LCD.h(19): note: expanded from macro 'FunctionSet2_Command'
+#define FunctionSet2_Command            0b10000000
+                                        ^
+LCD.c(43): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinVal(LCD_PORT, D5, GET_BIT(FunctionSet2_Command,5));
+                                                 ^
+./inc/LCD\LCD.h(19): note: expanded from macro 'FunctionSet2_Command'
+#define FunctionSet2_Command            0b10000000
+                                        ^
+LCD.c(44): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinVal(LCD_PORT, D4, GET_BIT(FunctionSet2_Command,4));
+                                                 ^
+./inc/LCD\LCD.h(19): note: expanded from macro 'FunctionSet2_Command'
+#define FunctionSet2_Command            0b10000000
+                                        ^
+13 warnings generated.
+compiling LCD.c...
+KEYPAD_prg.c(2): warning: In file included from...
+./inc/LIB\Bit_utils.h(40): warning: no newline at end of file [-Wnewline-eof]
+#endif      
+            ^
+KEYPAD_prg.c(5): warning: In file included from...
+./inc/02 - KEYPAD\KEYPAD_cfg.h(21): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+KEYPAD_prg.c(6): warning: In file included from...
+./inc/02 - KEYPAD/KEYPAD_prv.h(9): warning: In file included from...
+./inc/02 - KEYPAD/KEYPAD_prv.h(22): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+KEYPAD_prg.c(6): warning: In file included from...
+./inc/02 - KEYPAD/KEYPAD_prv.h(11): warning: no previous extern declaration for non-static variable 'KEYPAD_u8ROWSArray' [-Wmissing-variable-declarations]
+u8 KEYPAD_u8ROWSArray[4]      = {ROW0PIN,ROW1PIN,ROW2PIN,ROW3PIN};
+   ^
+./inc/02 - KEYPAD/KEYPAD_prv.h(11): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+u8 KEYPAD_u8ROWSArray[4]      = {ROW0PIN,ROW1PIN,ROW2PIN,ROW3PIN};
+^
+./inc/02 - KEYPAD/KEYPAD_prv.h(12): warning: no previous extern declaration for non-static variable 'KEYPAD_u8COLOUMNSSArray' [-Wmissing-variable-declarations]
+u8 KEYPAD_u8COLOUMNSSArray[4] = {COLOUMN0PIN,COLOUMN1PIN,COLOUMN2PIN,COLOUMN3PIN};
+   ^
+./inc/02 - KEYPAD/KEYPAD_prv.h(12): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+u8 KEYPAD_u8COLOUMNSSArray[4] = {COLOUMN0PIN,COLOUMN1PIN,COLOUMN2PIN,COLOUMN3PIN};
+^
+./inc/02 - KEYPAD/KEYPAD_prv.h(14): warning: no previous extern declaration for non-static variable 'KEYPAD_u8arrayVals' [-Wmissing-variable-declarations]
+u8 KEYPAD_u8arrayVals[4][4] =
+   ^
+./inc/02 - KEYPAD/KEYPAD_prv.h(14): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+u8 KEYPAD_u8arrayVals[4][4] =
+^
+./inc/02 - KEYPAD/KEYPAD_prv.h(22): warning: no newline at end of file [-Wnewline-eof]
+#endif
+      ^
+KEYPAD_prg.c(10): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(KEYPAD_PORT, ROW0PIN, OUTPUTdir);
+                                                 ^
+./inc/GPIO\GPIO.h(7): note: expanded from macro 'OUTPUTdir'
+#define OUTPUTdir       0b01
+                        ^
+KEYPAD_prg.c(11): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(KEYPAD_PORT, ROW1PIN, OUTPUTdir);
+                                                 ^
+./inc/GPIO\GPIO.h(7): note: expanded from macro 'OUTPUTdir'
+#define OUTPUTdir       0b01
+                        ^
+KEYPAD_prg.c(12): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(KEYPAD_PORT, ROW2PIN, OUTPUTdir);
+                                                 ^
+./inc/GPIO\GPIO.h(7): note: expanded from macro 'OUTPUTdir'
+#define OUTPUTdir       0b01
+                        ^
+KEYPAD_prg.c(13): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(KEYPAD_PORT, ROW3PIN, OUTPUTdir);
+                                                 ^
+./inc/GPIO\GPIO.h(7): note: expanded from macro 'OUTPUTdir'
+#define OUTPUTdir       0b01
+                        ^
+KEYPAD_prg.c(36): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(KEYPAD_PORT, COLOUMN0PIN     , INPUTdir);
+                                                          ^
+./inc/GPIO\GPIO.h(8): note: expanded from macro 'INPUTdir'
+#define INPUTdir        0b00
+                        ^
+KEYPAD_prg.c(37): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(KEYPAD_PORT, COLOUMN1PIN     , INPUTdir);
+                                                          ^
+./inc/GPIO\GPIO.h(8): note: expanded from macro 'INPUTdir'
+#define INPUTdir        0b00
+                        ^
+KEYPAD_prg.c(38): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(KEYPAD_PORT, COLOUMN2PIN     , INPUTdir);
+                                                          ^
+./inc/GPIO\GPIO.h(8): note: expanded from macro 'INPUTdir'
+#define INPUTdir        0b00
+                        ^
+KEYPAD_prg.c(39): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidSetPinDir(KEYPAD_PORT, COLOUMN3PIN     , INPUTdir);
+                                                          ^
+./inc/GPIO\GPIO.h(8): note: expanded from macro 'INPUTdir'
+#define INPUTdir        0b00
+                        ^
+KEYPAD_prg.c(41): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidInputMode(KEYPAD_PORT, COLOUMN0PIN, INPUT_PULLUP);
+                                                     ^
+./inc/GPIO\GPIO.h(10): note: expanded from macro 'INPUT_PULLUP'
+#define INPUT_PULLUP            0b01
+                                ^
+KEYPAD_prg.c(42): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidInputMode(KEYPAD_PORT, COLOUMN1PIN, INPUT_PULLUP);
+                                                     ^
+./inc/GPIO\GPIO.h(10): note: expanded from macro 'INPUT_PULLUP'
+#define INPUT_PULLUP            0b01
+                                ^
+KEYPAD_prg.c(43): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidInputMode(KEYPAD_PORT, COLOUMN2PIN, INPUT_PULLUP);
+                                                     ^
+./inc/GPIO\GPIO.h(10): note: expanded from macro 'INPUT_PULLUP'
+#define INPUT_PULLUP            0b01
+                                ^
+KEYPAD_prg.c(44): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        GPIO_voidInputMode(KEYPAD_PORT, COLOUMN3PIN, INPUT_PULLUP);
+                                                     ^
+./inc/GPIO\GPIO.h(10): note: expanded from macro 'INPUT_PULLUP'
+#define INPUT_PULLUP            0b01
+                                ^
+19 warnings generated.
+compiling KEYPAD_prg.c...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Source/ARM/clib_arm.c(26): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1343): warning: padding struct 'struct xSTATIC_QUEUE' with 1 byte to align 'uxDummy8' [-Wpadded]
+        UBaseType_t uxDummy8;
+                    ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1320): warning: padding size of 'struct xSTATIC_QUEUE' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct xSTATIC_QUEUE
+               ^
+2 warnings generated.
+compiling clib_arm.c...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Source/cmsis_os2.c(29): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1256): warning: padding size of 'struct xSTATIC_TCB' with 2 bytes to alignment boundary [-Wpadded]
+typedef struct xSTATIC_TCB
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Source/cmsis_os2.c(656): warning: default label in switch which covers all enumeration values [-Wcovered-switch-default]
+      default:         state = osThreadError;      break;
+      ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Source/cmsis_os2.c(730): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+    taskYIELD();
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Source/cmsis_os2.c(30): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include/task.h(160): warning: padding struct 'struct xTASK_STATUS' with 3 bytes to align 'uxCurrentPriority' [-Wpadded]
+    UBaseType_t uxCurrentPriority;                /* The priority at which the task was running (may be inherited) when the structure was populated. */
+                ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include/task.h(154): warning: padding size of 'struct xTASK_STATUS' with 2 bytes to alignment boundary [-Wpadded]
+typedef struct xTASK_STATUS
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Source/cmsis_os2.c(29): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1391): warning: padding size of 'struct xSTATIC_TIMER' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct xSTATIC_TIMER
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Source/cmsis_os2.c(1206): warning: implicit conversion changes signedness: 'UBaseType_t' (aka 'unsigned long') to 'BaseType_t' (aka 'long') [-Wsign-conversion]
+          hTimer = xTimerCreateStatic (name, 1, reload, callb, TimerCallback, (StaticTimer_t *)attr->cb_mem);
+                   ~~~~~~~~~~~~~~~~~~           ^~~~~~
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Source/cmsis_os2.c(1212): warning: implicit conversion changes signedness: 'UBaseType_t' (aka 'unsigned long') to 'BaseType_t' (aka 'long') [-Wsign-conversion]
+            hTimer = xTimerCreate (name, 1, reload, callb, TimerCallback);
+                     ~~~~~~~~~~~~           ^~~~~~
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/CMSIS/RTOS2/FreeRTOS/Source/cmsis_os2.c(29): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1363): warning: padding size of 'struct xSTATIC_EVENT_GROUP' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct xSTATIC_EVENT_GROUP
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1343): warning: padding struct 'struct xSTATIC_QUEUE' with 1 byte to align 'uxDummy8' [-Wpadded]
+        UBaseType_t uxDummy8;
+                    ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1320): warning: padding size of 'struct xSTATIC_QUEUE' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct xSTATIC_QUEUE
+               ^
+11 warnings generated.
+compiling cmsis_os2.c...
+compiling os_systick.c...
+assembling startup_stm32f303xe.s...
+compiling freertos_evr.c...
+compiling system_stm32f3xx.c...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/event_groups.c(64): warning: padding size of 'struct EventGroupDef_t' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct EventGroupDef_t
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/event_groups.c(38): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1363): warning: padding size of 'struct xSTATIC_EVENT_GROUP' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct xSTATIC_EVENT_GROUP
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/event_groups.c(261): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+            portYIELD_WITHIN_API();
+                                  ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/event_groups.c(413): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+            portYIELD_WITHIN_API();
+                                  ^
+4 warnings generated.
+compiling event_groups.c...
+compiling list.c...
+compiling port.c...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/portable/MemMang/heap_4.c(414): warning: cast from 'uint8_t *' (aka 'unsigned char *') to 'BlockLink_t *' (aka 'struct A_BLOCK_LINK *') increases required alignment from 1 to 4 [-Wcast-align]
+    pxFirstFreeBlock = ( BlockLink_t * ) pucAlignedHeap;
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+compiling heap_4.c...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(329): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                        queueYIELD_IF_USING_PREEMPTION();
+                                                        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(130): warning: padding struct 'struct QueueDefinition' with 1 byte to align 'uxQueueNumber' [-Wpadded]
+        UBaseType_t uxQueueNumber;
+                    ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(100): warning: padding size of 'struct QueueDefinition' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct QueueDefinition /* The old naming convention is used to prevent breaking kernel aware debuggers. */
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(37): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1343): warning: padding struct 'struct xSTATIC_QUEUE' with 1 byte to align 'uxDummy8' [-Wpadded]
+        UBaseType_t uxDummy8;
+                    ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1320): warning: padding size of 'struct xSTATIC_QUEUE' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct xSTATIC_QUEUE
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(942): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                            queueYIELD_IF_USING_PREEMPTION();
+                                                            ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(955): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                        queueYIELD_IF_USING_PREEMPTION();
+                                                        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(1024): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    portYIELD_WITHIN_API();
+                                          ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(1195): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                prvIncrementQueueTxLock( pxQueue, cTxLock );
+                                                           ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(1361): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                prvIncrementQueueTxLock( pxQueue, cTxLock );
+                                                           ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(1425): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                        queueYIELD_IF_USING_PREEMPTION();
+                                                        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(1485): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    portYIELD_WITHIN_API();
+                                          ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(1588): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                        queueYIELD_IF_USING_PREEMPTION();
+                                                        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(1668): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    portYIELD_WITHIN_API();
+                                          ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(1785): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                        queueYIELD_IF_USING_PREEMPTION();
+                                                        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(1846): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    portYIELD_WITHIN_API();
+                                          ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/queue.c(1958): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                prvIncrementQueueRxLock( pxQueue, cRxLock );
+                                                           ^
+17 warnings generated.
+compiling queue.c...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/timers.c(37): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1256): warning: padding size of 'struct xSTATIC_TCB' with 2 bytes to alignment boundary [-Wpadded]
+typedef struct xSTATIC_TCB
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/timers.c(75): warning: padding size of 'struct tmrTimerControl' with 3 bytes to alignment boundary [-Wpadded]
+    typedef struct tmrTimerControl                  /* The old naming convention is used to prevent breaking kernel aware debuggers. */
+                   ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/timers.c(37): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1391): warning: padding size of 'struct xSTATIC_TIMER' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct xSTATIC_TIMER
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/timers.c(569): warning: function 'prvTimerTask' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+    {
+    ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/timers.c(650): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                        portYIELD_WITHIN_API();
+                                              ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/timers.c(37): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1343): warning: padding struct 'struct xSTATIC_QUEUE' with 1 byte to align 'uxDummy8' [-Wpadded]
+        UBaseType_t uxDummy8;
+                    ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1320): warning: padding size of 'struct xSTATIC_QUEUE' with 3 bytes to alignment boundary [-Wpadded]
+typedef struct xSTATIC_QUEUE
+               ^
+7 warnings generated.
+compiling timers.c...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(329): warning: no previous extern declaration for non-static variable 'pxCurrentTCB' [-Wmissing-variable-declarations]
+portDONT_DISCARD PRIVILEGED_DATA TCB_t * volatile pxCurrentTCB = NULL;
+                                                  ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(329): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+portDONT_DISCARD PRIVILEGED_DATA TCB_t * volatile pxCurrentTCB = NULL;
+                                 ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(255): warning: padding size of 'struct tskTaskControlBlock' with 2 bytes to alignment boundary [-Wpadded]
+typedef struct tskTaskControlBlock       /* The old naming convention is used to prevent breaking kernel aware debuggers. */
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(376): warning: no previous extern declaration for non-static variable 'uxTopUsedPriority' [-Wmissing-variable-declarations]
+const volatile UBaseType_t uxTopUsedPriority = configMAX_PRIORITIES - 1U;
+                           ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(376): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+const volatile UBaseType_t uxTopUsedPriority = configMAX_PRIORITIES - 1U;
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(39): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include\FreeRTOS.h(1256): warning: padding size of 'struct xSTATIC_TCB' with 2 bytes to alignment boundary [-Wpadded]
+typedef struct xSTATIC_TCB
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(1084): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+        prvAddTaskToReadyList( pxNewTCB );
+                                         ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(1096): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+            taskYIELD_IF_USING_PREEMPTION();
+                                           ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(1200): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                portYIELD_WITHIN_API();
+                                      ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(1286): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+            portYIELD_WITHIN_API();
+                                  ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(1333): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+            portYIELD_WITHIN_API();
+                                  ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(1644): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    prvAddTaskToReadyList( pxTCB );
+                                                  ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(1653): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    taskYIELD_IF_USING_PREEMPTION();
+                                                   ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(1747): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                portYIELD_WITHIN_API();
+                                      ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(1845): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    prvAddTaskToReadyList( pxTCB );
+                                                  ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(1853): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                        taskYIELD_IF_USING_PREEMPTION();
+                                                       ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(1931): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    prvAddTaskToReadyList( pxTCB );
+                                                  ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(2201): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    listREMOVE_ITEM( &( pxTCB->xEventListItem ) );
+                                                                 ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(2203): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    listREMOVE_ITEM( &( pxTCB->xStateListItem ) );
+                                                                 ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(2204): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    prvAddTaskToReadyList( pxTCB );
+                                                  ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(2267): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    taskYIELD_IF_USING_PREEMPTION();
+                                                   ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(40): warning: In file included from...
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include/task.h(160): warning: padding struct 'struct xTASK_STATUS' with 3 bytes to align 'uxCurrentPriority' [-Wpadded]
+    UBaseType_t uxCurrentPriority;                /* The priority at which the task was running (may be inherited) when the structure was populated. */
+                ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/include/task.h(154): warning: padding size of 'struct xTASK_STATUS' with 2 bytes to alignment boundary [-Wpadded]
+typedef struct xTASK_STATUS
+               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(2743): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+            taskSWITCH_DELAYED_LISTS();
+                                      ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(2793): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    listREMOVE_ITEM( &( pxTCB->xStateListItem ) );
+                                                                 ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(2799): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                        listREMOVE_ITEM( &( pxTCB->xEventListItem ) );
+                                                                     ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(2808): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    prvAddTaskToReadyList( pxTCB );
+                                                  ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3051): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+        taskCHECK_FOR_STACK_OVERFLOW();
+                                      ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3062): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+        taskSELECT_HIGHEST_PRIORITY_TASK(); /*lint !e9079 void * is used as this macro is used with timers and co-routines too.  Alignment is known to be fine as the type of the pointer stored and retrieved is the same. */
+                                          ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3128): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+    listINSERT_END( pxEventList, &( pxCurrentTCB->xEventListItem ) );
+                                                                    ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3152): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+        listINSERT_END( pxEventList, &( pxCurrentTCB->xEventListItem ) );
+                                                                        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3189): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+    listREMOVE_ITEM( &( pxUnblockedTCB->xEventListItem ) );
+                                                          ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3193): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+        listREMOVE_ITEM( &( pxUnblockedTCB->xStateListItem ) );
+                                                              ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3194): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+        prvAddTaskToReadyList( pxUnblockedTCB );
+                                               ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3214): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+        listINSERT_END( &( xPendingReadyList ), &( pxUnblockedTCB->xEventListItem ) );
+                                                                                     ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3253): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+    listREMOVE_ITEM( pxEventListItem );
+                                      ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3272): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+    listREMOVE_ITEM( &( pxUnblockedTCB->xStateListItem ) );
+                                                          ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3273): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+    prvAddTaskToReadyList( pxUnblockedTCB );
+                                           ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3469): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                taskYIELD();
+                           ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3428): warning: function 'prvIdleTask' could be declared with attribute 'noreturn' [-Wmissing-noreturn]
+{
+^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3832): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+            listGET_OWNER_OF_NEXT_ENTRY( pxFirstTCB, pxList ); /*lint !e9079 void * is used as this macro is used with timers and co-routines too.  Alignment is known to be fine as the type of the pointer stored and retrieved is the same. */
+                                                             ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(3840): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                listGET_OWNER_OF_NEXT_ENTRY( pxNextTCB, pxList ); /*lint !e9079 void * is used as this macro is used with timers and co-routines too.  Alignment is known to be fine as the type of the pointer stored and retrieved is the same. */
+                                                                ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(4112): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    prvAddTaskToReadyList( pxMutexHolderTCB );
+                                                             ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(4202): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    prvAddTaskToReadyList( pxTCB );
+                                                  ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(4315): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                        prvAddTaskToReadyList( pxTCB );
+                                                      ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(4716): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    portYIELD_WITHIN_API();
+                                          ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(4795): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    portYIELD_WITHIN_API();
+                                          ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(4908): warning: default label in switch which covers all enumeration values [-Wcovered-switch-default]
+                default:
+                ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(4924): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                listREMOVE_ITEM( &( pxTCB->xStateListItem ) );
+                                                             ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(4925): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                prvAddTaskToReadyList( pxTCB );
+                                              ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(4950): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    taskYIELD_IF_USING_PREEMPTION();
+                                                   ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(5051): warning: default label in switch which covers all enumeration values [-Wcovered-switch-default]
+                default:
+                ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(5071): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    listREMOVE_ITEM( &( pxTCB->xStateListItem ) );
+                                                                 ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(5072): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    prvAddTaskToReadyList( pxTCB );
+                                                  ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(5078): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    listINSERT_END( &( xPendingReadyList ), &( pxTCB->xEventListItem ) );
+                                                                                        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(5162): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    listREMOVE_ITEM( &( pxTCB->xStateListItem ) );
+                                                                 ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(5163): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    prvAddTaskToReadyList( pxTCB );
+                                                  ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(5169): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+                    listINSERT_END( &( xPendingReadyList ), &( pxTCB->xEventListItem ) );
+                                                                                        ^
+C:/Users/bishoy18126/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.5.1/Source/tasks.c(5332): warning: empty expression statement has no effect; remove unnecessary ';' to silence this warning [-Wextra-semi-stmt]
+            listINSERT_END( &xSuspendedTaskList, &( pxCurrentTCB->xStateListItem ) );
+                                                                                    ^
+57 warnings generated.
+compiling tasks.c...
+linking...
+Program Size: Code=9536 RO-data=440 RW-data=68 ZI-data=12808  
+".\Objects\RTOS.axf" - 0 Error(s), 179 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: RTOS2 Version: 2.1.3
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS-FreeRTOS.10.5.1.pack
+                ARM.CMSIS-FreeRTOS.10.5.1
+                Bundle of FreeRTOS for Cortex-M and Cortex-A
+   * Component: Config Variant: CMSIS RTOS2 Version: 10.5.1
+   * Component: Core Variant: Cortex-M Version: 10.5.1
+   * Component: Event Groups Version: 10.5.1
+   * Component: Heap Variant: Heap_4 Version: 10.5.1
+   * Component: Timers Version: 10.5.1
+   * Component: FreeRTOS Variant: Cortex-M Version: 10.5.1
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F3xx_DFP.2.2.2.pack
+                Keil.STM32F3xx_DFP.2.2.2
+                STMicroelectronics STM32F3 Series Device Support and Examples
+   * Component: Startup Version: 1.11.3
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\RTOS
+  .\RTE\_STM32F303
+  C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\CMSIS\RTOS2\FreeRTOS\Include
+  C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\include
+  C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS-FreeRTOS\10.5.1\Source\portable\GCC\ARM_CM4F
+  C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include
+  C:\Users\bishoy18126\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\RTOS2\Include
+  C:\Users\bishoy18126\AppData\Local\Arm\Packs\Keil\STM32F3xx_DFP\2.2.2\Drivers\CMSIS\Device\ST\STM32F3xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ::CMSIS:RTOS2:2.1.3 (API)
+      Include file:  CMSIS\RTOS2\Include\cmsis_os2.h
+
+   * Component: ARM.FreeRTOS::RTOS:Config:CMSIS RTOS2:10.5.1
+      Include file:  CMSIS\RTOS2\FreeRTOS\Config\ARMCM\FreeRTOSConfig.h
+
+   * Component: ARM.FreeRTOS::RTOS:Core:Cortex-M:10.5.1
+      Include file:  Source\include\queue.h
+      Include file:  Source\include\task.h
+      Source file:   Source\list.c
+      Include file:  Source\include\FreeRTOS.h
+      Include file:  Source\include\semphr.h
+      Source file:   Source\queue.c
+      Source file:   Source\portable\GCC\ARM_CM4F\port.c
+      Source file:   Source\tasks.c
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\freertos_evr.c
+
+   * Component: ARM.FreeRTOS::RTOS:Event Groups:10.5.1
+      Include file:  Source\include\event_groups.h
+      Source file:   Source\event_groups.c
+
+   * Component: ARM.FreeRTOS::RTOS:Heap:Heap_4:10.5.1
+      Source file:   Source\portable\MemMang\heap_4.c
+
+   * Component: ARM.FreeRTOS::RTOS:Timers:10.5.1
+      Include file:  Source\include\timers.h
+      Source file:   Source\timers.c
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: ARM::CMSIS:RTOS2:FreeRTOS:Cortex-M:10.5.1
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\os_systick.c
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\ARM\clib_arm.c
+      Source file:   CMSIS\RTOS2\FreeRTOS\Source\cmsis_os2.c
+      Include file:  CMSIS\RTOS2\FreeRTOS\Include\freertos_mpool.h
+
+   * Component: Keil.Standalone::Device:Startup:1.11.3
+      Include file:  Drivers\CMSIS\Device\ST\STM32F3xx\Include\stm32f3xx.h
+      Source file:   MDK\Device\Source\ARM\STM32F3xx_OPT.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F3xx\Source\Templates\arm\startup_stm32f303xe.s
+      Source file:   Drivers\CMSIS\Device\ST\STM32F3xx\Source\Templates\system_stm32f3xx.c
+Build Time Elapsed:  00:00:06
+</pre>
+</body>
+</html>
